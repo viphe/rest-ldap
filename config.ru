@@ -3,5 +3,7 @@ require 'sinatra'
 
 configure { set :server, :puma }
 
-require File.expand_path '../lib/rest-ldap/api.rb', __FILE__
+Dir["./app/models/*.rb"].each { |file| require file }
+Dir["./app/controllers/*.rb"].each { |file| require file }
+
 run Sinatra::Application

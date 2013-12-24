@@ -5,3 +5,4 @@ gem 'jbundler'
 
 gem 'puma'
 gem 'sinatra'
+gem 'racksh'
