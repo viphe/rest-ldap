@@ -1,13 +1,55 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    alias (0.2.3)
+    awesome_print (1.2.0)
     backports (3.3.5)
+    binding.repl (0.8.0)
+    boson (1.2.4)
+    boson-more (0.2.2)
+      boson (>= 1.2.0)
+    clipboard (1.0.5)
+    coderay (1.1.0)
     descendants_tracker (0.0.3)
+    every_day_irb (1.5.1)
+    fancy_irb (0.7.3)
+      paint (>= 0.8.1)
+      unicode-display_width (>= 0.1.1)
+    ffi (1.9.3-java)
+    g (1.7.2)
+    hirb (0.7.1)
+    interactive_editor (0.0.10)
+      spoon (>= 0.0.1)
+    irbtools (1.5.1)
+      alias (~> 0.2.3)
+      awesome_print (~> 1.2.0)
+      binding.repl (>= 0.7.0)
+      boson (~> 1.2.4)
+      boson-more (~> 0.2.2)
+      clipboard (~> 1.0.5)
+      coderay (~> 1.1.0)
+      every_day_irb (>= 1.5.1)
+      fancy_irb (>= 0.7.3)
+      g (>= 1.7.2)
+      hirb (~> 0.7.1)
+      interactive_editor (>= 0.0.10)
+      method_locator (>= 0.0.4)
+      method_source (>= 0.8.2)
+      methodfinder (>= 1.2.5)
+      ori (~> 0.1.0)
+      paint (>= 0.8.6)
+      wirb (>= 1.0.2)
+      zucker (>= 13.1)
     jbundler (0.5.4)
       bundler (~> 1.2)
       ruby-maven (>= 3.1.1.0.1, < 3.1.2)
     maven-tools (0.34.2)
       virtus (~> 0.5)
+    method_locator (0.0.4)
+    method_source (0.8.2)
+    methodfinder (2.0.0)
+    ori (0.1.0)
+    paint (0.8.6)
     puma (2.7.1)
       rack (>= 1.1, < 2.0)
     puma (2.7.1-java)
@@ -28,15 +70,22 @@ GEM
       rack (~> 1.4)
       rack-protection (~> 1.4)
       tilt (~> 1.3, >= 1.3.4)
+    spoon (0.0.4)
+      ffi
     tilt (1.4.1)
+    unicode-display_width (0.1.1)
     virtus (0.5.5)
       backports (~> 3.3)
       descendants_tracker (~> 0.0.1)
+    wirb (1.0.2)
+      paint
+    zucker (13.1)
 
 PLATFORMS
   java
 
 DEPENDENCIES
+  irbtools
   jbundler
   puma
   racksh

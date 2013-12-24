@@ -6,3 +6,9 @@ gem 'jbundler'
 gem 'puma'
 gem 'sinatra'
 gem 'racksh'
+
+gem 'atomic'
+
+group :development do
+  gem 'irbtools'
+end
