@@ -2,6 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     alias (0.2.3)
+    atomic (1.1.14-java)
     awesome_print (1.2.0)
     backports (3.3.5)
     binding.repl (0.8.0)
@@ -50,8 +51,6 @@ GEM
     methodfinder (2.0.0)
     ori (0.1.0)
     paint (0.8.6)
-    puma (2.7.1)
-      rack (>= 1.1, < 2.0)
     puma (2.7.1-java)
       rack (>= 1.1, < 2.0)
     rack (1.5.2)
@@ -85,6 +84,7 @@ PLATFORMS
   java
 
 DEPENDENCIES
+  atomic
   irbtools
   jbundler
   puma
